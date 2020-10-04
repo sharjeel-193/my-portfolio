@@ -1,0 +1,67 @@
+.social-media-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: royalblue; */
+    justify-content: center;
+    margin:30px auto;
+    padding: 10px;
+    width: fit-content;
+}
+.social-media-icon{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    font-size: 50px;
+    transition: all 0.8s ease-out;
+    margin: 10px
+}
+.social-media-icon:hover{
+    box-shadow: 1px 1px 6px 3px #920666;
+}
+.twitter{
+    background-color:transparent;
+    color: #00ACEE;
+    
+}
+.twitter:hover{
+    background-color: #00ACEE;
+    color: white;
+}
+.facebook{
+    background-color: transparent;
+    color: #3b5998;
+}
+.facebook:hover{
+    background-color: #3b5998;
+    color: white;
+}
+.linkedin{
+    background-color: transparent;
+    color: #0e76a8;
+}
+.linkedin:hover{
+    background-color: #0e76a8;
+    color: white;
+}
+.instagram{
+    background-color: transparent;
+    color: #833AB4;
+}
+.instagram:hover{
+    color: white;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.github{
+    background-color: transparent;
+    color: #211F1F;
+}
+.github:hover{
+    color: white;
+    background-color: #211F1F;
+}

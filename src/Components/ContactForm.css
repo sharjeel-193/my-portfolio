@@ -1,0 +1,108 @@
+.contact-form{
+    /* background-color: burlywood; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* align-self: center; */
+    /* text-align: center; */
+    padding: 40px 0;
+}
+.contact-form form{
+    /* width: 60%; */
+    /* background-color: violet; */
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.field-wrapper{
+    /* width: 100%; */
+    /* background-color: thistle; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: royalblue; */
+    margin: 15px 0
+}
+.label-field{
+    /* margin-right: 10px; */
+    font-size: 15px;
+    width: 60px;
+    color: #920666;
+    font-weight: 800;
+    /* background-color: blue; */
+}
+.input-field{
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid #0254AC
+}
+.input-field:focus{
+    box-shadow: 1px 1px 6px 3px #920666;
+    transition: 0.5s ease-in
+}
+.field-wrapper-textarea{
+    display: flex;
+    flex-direction: column;
+    /* background-color: thistle; */
+    
+    margin: 15px 0;
+    
+}
+.input-field-textarea{
+    width: 580px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #0254AC;
+    margin: 10px 0;
+}
+/*  */
+.input-field-textarea:focus{
+    outline: none;
+    box-shadow: 1px 1px 6px 3px #920666;
+    
+}
+.contact-form-btn{
+    width: 150px;
+    padding: 6px 0;
+    border-radius: 10px;
+    border: 1px solid #0254AC;
+}
+.contact-form-btn:hover{
+    background-color: #920666;
+    color: white;
+    box-shadow: 1px 1px 6px 3px #0254AC;
+}
+
+@media all and (max-width: 640px){
+    .field-wrapper{
+        flex-direction: column;
+    }
+    .contact-form form{
+        width: 90%;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .input-field-textarea{
+        width: 100%;
+    }
+    .label-field{
+        width: 100%;
+        text-align: left;
+    }
+    .field-wrapper{
+        width: 90%;
+
+    }
+    .field-wrapper-textarea{
+        width: 90%;
+    }
+}

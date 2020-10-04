@@ -1,0 +1,26 @@
+.intro-container{
+    width: 100%;
+    height: auto;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro-img{
+    max-width: 60%;
+}
+.intro-text{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    max-width: 80%;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+} 
+@media all and (max-width: 640px){
+    .intro-text{
+        font-size: 15px;
+    }
+}

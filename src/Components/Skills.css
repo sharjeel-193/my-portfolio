@@ -1,0 +1,35 @@
+.skills-container{
+    width: 80%;
+    margin: 30px auto;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-item{
+    width: 200px;
+    text-align: center;
+    margin: 1px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+.skill-item:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.skill-img{
+    max-width: 90%;
+}
+.skill-name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+@media all and (max-width: 640px){
+    .skills-container{
+        width: 90%;
+    }
+    .skill-item{
+        width: 150px;
+    }
+}

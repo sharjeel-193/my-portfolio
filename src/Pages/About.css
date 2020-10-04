@@ -1,0 +1,35 @@
+.page-heading{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+    background: -webkit-linear-gradient(#0254AC, #920666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.degree-heading{
+    text-align: left;
+    
+    color: #0254AC;
+    width: 80%;
+    margin: 20px auto;
+}
+.certificate-heading{
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+    color: #920666;
+}
+
+@media all and (max-width: 640px){
+    .page-heading{
+        margin: 20px 0;
+    }
+    .degree-heading{
+        margin: 10px auto;
+        width: 95%;
+    }
+    .certificate-heading{
+        width: 95%;
+        margin: 10px auto;
+    }
+}
